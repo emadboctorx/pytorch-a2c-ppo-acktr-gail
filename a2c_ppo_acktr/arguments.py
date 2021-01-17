@@ -152,7 +152,6 @@ def get_args():
     parser.add_argument(
         '--disable-fork-safety',
         action='store_true',
-        default=False,
         help='Add an environment variable to prevent occasional '
              'conflict with macOS fork safety')
     args = parser.parse_args()
